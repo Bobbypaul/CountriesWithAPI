@@ -144,7 +144,7 @@ function append(x) {
     information.classList.add("information");
 
     card.innerHTML = `
- <img src='${element.flags.png}' class="flags">
+ <img src='${element.flags.png}' class="flags" alt="flags">
  `;
     information.innerHTML = `
 <h2>${element.name.common}</h2>
@@ -162,7 +162,7 @@ function append(x) {
    <div class="back"><i class="fas fa-long-arrow-alt-left"></i>Back</div>
   
    <div class="pic-and-div-container">
-     <img src="${element.flags.png}" class="second-flag" />
+     <img src="${element.flags.png}" class="second-flag" alt="flagss" />
     <div class="all-information-con">
       <div class="second-information-con">
           <div class="second-information">
@@ -240,7 +240,7 @@ function append(x) {
    <div class="back"><i class="fas fa-long-arrow-alt-left"></i>Back</div>
   
    <div class="pic-and-div-container">
-     <img src="${element.flags.png}" class="second-flag" />
+     <img src="${element.flags.png}" class="second-flag" alt="flags" />
     <div class="all-information-con">
       <div class="second-information-con">
           <div class="second-information">
